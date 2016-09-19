@@ -1,7 +1,13 @@
+var path = require('path');
+var BUILD_DIR = path.resolve( __dirname, 'public/dist');
+var APP_DIR = path.resolve( __dirname, 'app/components');
+console.log("App dir :" +BUILD_DIR);
+console.log("APP dir:" + APP_DIR);
+
 module.exports = {
-    entry: "./app/entry.jsx",
+    entry: APP_DIR + "/entry.jsx",
     output: {
-            path: './public/dist',
+            path: BUILD_DIR,
             filename: "bundle.js"
     },
 
