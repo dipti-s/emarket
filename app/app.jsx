@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <Router history={browserHistory}>
-        <Route path='/' component={LoginIndex} />
+        <Route path='/' component={LoginIndex}/>
         <Route path='/login' component={Login} />
         <Route path='/signup' component={SignUp} />
         <Route path='/passwordreset' component={PasswordReset} />
