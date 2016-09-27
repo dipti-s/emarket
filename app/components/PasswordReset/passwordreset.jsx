@@ -9,7 +9,7 @@ class PasswordReset extends Component{
 					<input type='text' name='username'/>
 				</div>
 				<div className='form-element'>
-					<label>Confiem Password</label>
+					<label>Confirm Password</label>
 					<input type='text' name='password'/>
 				</div>
 			</div>
